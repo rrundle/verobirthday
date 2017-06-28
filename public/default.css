@@ -1,0 +1,71 @@
+body {
+  font-family: Quicksand;
+  background-color: #24272E;
+  color: #E4E4E4;
+}
+
+.full {
+  height: 100vh;
+  font-size: 60px
+}
+
+div {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.button {
+  width: 200px;
+  height: 35px;
+  background-color: #175799;
+  color: #E4E4E4;
+  border-radius: 5px;
+  margin: 25px auto;
+  vertical-align: middle;
+  display: block;
+  font-size: 18px;
+  padding-top: 11px;
+}
+
+.button:hover {
+  filter: brightness(.7);
+  cursor: pointer;
+}
+
+li {
+  font-size: 24px;
+}
+
+.no {
+  width: 500px;
+}
+
+#confirm {
+  font-size: 120px;
+}
+
+#decline {
+  font-size: 120px;
+}
+
+#love {
+  font-size: 80px;
+  margin: 25px auto;
+}
+
+.header {
+  font-size: 80px;
+  width: 80%;
+  margin: 10px auto;
+}
