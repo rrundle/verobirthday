@@ -1,6 +1,9 @@
 {
   "name": "verobirthday",
   "version": "1.0.0",
+  "engines": {
+    "node": "7.7.3"
+  },
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -16,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/rrundle/verobirthday/issues"
   },
-  "homepage": "https://github.com/rrundle/verobirthday#readme"
+  "homepage": "https://github.com/rrundle/verobirthday#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
 }
