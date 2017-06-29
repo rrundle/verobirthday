@@ -1,4 +1,4 @@
-document.addEventListener('click', function(e) {
+window.addEventListener('click', function(e) {
   if (e.target.className.indexOf('when') !== -1) {
     console.log('clicked!');
     var date = document.querySelector('.date')
