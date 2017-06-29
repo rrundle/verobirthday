@@ -1,4 +1,4 @@
-window.document.addEventListener('click', function(e) {
+window.document.addEventListener('click' || 'touchstart', function(e) {
   if (e.target.className.indexOf('when') !== -1) {
     console.log('clicked!');
     var date = document.querySelector('.date')
